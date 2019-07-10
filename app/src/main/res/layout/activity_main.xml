@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorDark"
+    android:paddingTop="120dp"
+    android:paddingLeft="80dp"
+    android:paddingRight="80dp">
+
+
+    <Button
+        android:id="@+id/btnSingle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/colorGayPurple"
+        android:background="@color/colorDark"
+        android:gravity="center"
+        android:text="Single" />
+
+    <Button
+        android:id="@+id/btnGay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Gay"
+        android:textColor="@color/colorGayPurple"
+        android:background="@color/colorDark"
+        android:gravity="center"/>
+
+
+    <Button
+        android:id="@+id/btnUnkown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unkown"
+        android:textColor="@color/colorGayPurple"
+        android:background="@color/colorDark"
+        android:gravity="center"/>
+
+</LinearLayout>
